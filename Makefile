@@ -5,7 +5,7 @@ update-exos:
 	mv README.md.tmp README.md; \
 	skipped=$$(grep -Fho -- '#skipexo()' ./*.typ | wc -l); \
 	solved=$$(grep -Fho -- '#exo()' ./*.typ | wc -l); \
-	total=330; \
+	total=217; \
 	{ \
 	  printf -- '- Solved exercises: %s\n' "$$solved"; \
 	  printf -- '- Skipped exercises: %s\n' "$$skipped"; \
