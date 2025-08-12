@@ -937,6 +937,12 @@ $tens.big_(j in J) b_j |-> tens.big_(j in J) b_j tens tens.big_(j in J' without 
 
 // == Flatness and Tor
 
+#skipexo()
+#skipexo()
+#skipexo()
+#skipexo()
+#skipexo()
+
 = Rings and Modules of Fractions
 
 #exo() Let $m_1, dots.c, m_n$ be generators of $M$ as an $A$-module, $S$ a
